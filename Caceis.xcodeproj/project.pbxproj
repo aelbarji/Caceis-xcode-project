@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1AE52F31BF5DC8000BBF9DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE52F21BF5DC8000BBF9DB /* main.m */; };
+		E1AE52F61BF5DC8000BBF9DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE52F51BF5DC8000BBF9DB /* AppDelegate.m */; };
+		E1AE52F91BF5DC8000BBF9DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE52F81BF5DC8000BBF9DB /* ViewController.m */; };
+		E1AE52FC1BF5DC8000BBF9DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1AE52FA1BF5DC8000BBF9DB /* Main.storyboard */; };
+		E1AE52FF1BF5DC8000BBF9DB /* Caceis.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1AE52FD1BF5DC8000BBF9DB /* Caceis.xcdatamodeld */; };
+		E1AE53011BF5DC8000BBF9DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53001BF5DC8000BBF9DB /* Assets.xcassets */; };
+		E1AE53041BF5DC8000BBF9DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53021BF5DC8000BBF9DB /* LaunchScreen.storyboard */; };
+		E1AE530F1BF5DC8000BBF9DB /* CaceisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE530E1BF5DC8000BBF9DB /* CaceisTests.m */; };
+		E1AE531A1BF5DC8000BBF9DB /* CaceisUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE53191BF5DC8000BBF9DB /* CaceisUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1AE530B1BF5DC8000BBF9DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1AE52E61BF5DC8000BBF9DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1AE52ED1BF5DC8000BBF9DB;
+			remoteInfo = Caceis;
+		};
+		E1AE53161BF5DC8000BBF9DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1AE52E61BF5DC8000BBF9DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1AE52ED1BF5DC8000BBF9DB;
+			remoteInfo = Caceis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1AE52EE1BF5DC8000BBF9DB /* Caceis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caceis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1AE52F21BF5DC8000BBF9DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1AE52F41BF5DC8000BBF9DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1AE52F51BF5DC8000BBF9DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1AE52F71BF5DC8000BBF9DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E1AE52F81BF5DC8000BBF9DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E1AE52FB1BF5DC8000BBF9DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1AE52FE1BF5DC8000BBF9DB /* Caceis.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Caceis.xcdatamodel; sourceTree = "<group>"; };
+		E1AE53001BF5DC8000BBF9DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1AE53031BF5DC8000BBF9DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1AE53051BF5DC8000BBF9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1AE530A1BF5DC8000BBF9DB /* CaceisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaceisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1AE530E1BF5DC8000BBF9DB /* CaceisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaceisTests.m; sourceTree = "<group>"; };
+		E1AE53101BF5DC8000BBF9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1AE53151BF5DC8000BBF9DB /* CaceisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaceisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1AE53191BF5DC8000BBF9DB /* CaceisUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaceisUITests.m; sourceTree = "<group>"; };
+		E1AE531B1BF5DC8000BBF9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1AE52EB1BF5DC8000BBF9DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1AE53071BF5DC8000BBF9DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1AE53121BF5DC8000BBF9DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1AE52E51BF5DC8000BBF9DB = {
+			isa = PBXGroup;
+			children = (
+				E1AE52F01BF5DC8000BBF9DB /* Caceis */,
+				E1AE530D1BF5DC8000BBF9DB /* CaceisTests */,
+				E1AE53181BF5DC8000BBF9DB /* CaceisUITests */,
+				E1AE52EF1BF5DC8000BBF9DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1AE52EF1BF5DC8000BBF9DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1AE52EE1BF5DC8000BBF9DB /* Caceis.app */,
+				E1AE530A1BF5DC8000BBF9DB /* CaceisTests.xctest */,
+				E1AE53151BF5DC8000BBF9DB /* CaceisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1AE52F01BF5DC8000BBF9DB /* Caceis */ = {
+			isa = PBXGroup;
+			children = (
+				E1AE52F41BF5DC8000BBF9DB /* AppDelegate.h */,
+				E1AE52F51BF5DC8000BBF9DB /* AppDelegate.m */,
+				E1AE52F71BF5DC8000BBF9DB /* ViewController.h */,
+				E1AE52F81BF5DC8000BBF9DB /* ViewController.m */,
+				E1AE52FA1BF5DC8000BBF9DB /* Main.storyboard */,
+				E1AE53001BF5DC8000BBF9DB /* Assets.xcassets */,
+				E1AE53021BF5DC8000BBF9DB /* LaunchScreen.storyboard */,
+				E1AE53051BF5DC8000BBF9DB /* Info.plist */,
+				E1AE52FD1BF5DC8000BBF9DB /* Caceis.xcdatamodeld */,
+				E1AE52F11BF5DC8000BBF9DB /* Supporting Files */,
+			);
+			path = Caceis;
+			sourceTree = "<group>";
+		};
+		E1AE52F11BF5DC8000BBF9DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1AE52F21BF5DC8000BBF9DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1AE530D1BF5DC8000BBF9DB /* CaceisTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1AE530E1BF5DC8000BBF9DB /* CaceisTests.m */,
+				E1AE53101BF5DC8000BBF9DB /* Info.plist */,
+			);
+			path = CaceisTests;
+			sourceTree = "<group>";
+		};
+		E1AE53181BF5DC8000BBF9DB /* CaceisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1AE53191BF5DC8000BBF9DB /* CaceisUITests.m */,
+				E1AE531B1BF5DC8000BBF9DB /* Info.plist */,
+			);
+			path = CaceisUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1AE52ED1BF5DC8000BBF9DB /* Caceis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1AE531E1BF5DC8000BBF9DB /* Build configuration list for PBXNativeTarget "Caceis" */;
+			buildPhases = (
+				E1AE52EA1BF5DC8000BBF9DB /* Sources */,
+				E1AE52EB1BF5DC8000BBF9DB /* Frameworks */,
+				E1AE52EC1BF5DC8000BBF9DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Caceis;
+			productName = Caceis;
+			productReference = E1AE52EE1BF5DC8000BBF9DB /* Caceis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1AE53091BF5DC8000BBF9DB /* CaceisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1AE53211BF5DC8000BBF9DB /* Build configuration list for PBXNativeTarget "CaceisTests" */;
+			buildPhases = (
+				E1AE53061BF5DC8000BBF9DB /* Sources */,
+				E1AE53071BF5DC8000BBF9DB /* Frameworks */,
+				E1AE53081BF5DC8000BBF9DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1AE530C1BF5DC8000BBF9DB /* PBXTargetDependency */,
+			);
+			name = CaceisTests;
+			productName = CaceisTests;
+			productReference = E1AE530A1BF5DC8000BBF9DB /* CaceisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1AE53141BF5DC8000BBF9DB /* CaceisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1AE53241BF5DC8000BBF9DB /* Build configuration list for PBXNativeTarget "CaceisUITests" */;
+			buildPhases = (
+				E1AE53111BF5DC8000BBF9DB /* Sources */,
+				E1AE53121BF5DC8000BBF9DB /* Frameworks */,
+				E1AE53131BF5DC8000BBF9DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1AE53171BF5DC8000BBF9DB /* PBXTargetDependency */,
+			);
+			name = CaceisUITests;
+			productName = CaceisUITests;
+			productReference = E1AE53151BF5DC8000BBF9DB /* CaceisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1AE52E61BF5DC8000BBF9DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Groupehn;
+				TargetAttributes = {
+					E1AE52ED1BF5DC8000BBF9DB = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					E1AE53091BF5DC8000BBF9DB = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = E1AE52ED1BF5DC8000BBF9DB;
+					};
+					E1AE53141BF5DC8000BBF9DB = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = E1AE52ED1BF5DC8000BBF9DB;
+					};
+				};
+			};
+			buildConfigurationList = E1AE52E91BF5DC8000BBF9DB /* Build configuration list for PBXProject "Caceis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1AE52E51BF5DC8000BBF9DB;
+			productRefGroup = E1AE52EF1BF5DC8000BBF9DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1AE52ED1BF5DC8000BBF9DB /* Caceis */,
+				E1AE53091BF5DC8000BBF9DB /* CaceisTests */,
+				E1AE53141BF5DC8000BBF9DB /* CaceisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1AE52EC1BF5DC8000BBF9DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1AE53041BF5DC8000BBF9DB /* LaunchScreen.storyboard in Resources */,
+				E1AE53011BF5DC8000BBF9DB /* Assets.xcassets in Resources */,
+				E1AE52FC1BF5DC8000BBF9DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1AE53081BF5DC8000BBF9DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1AE53131BF5DC8000BBF9DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1AE52EA1BF5DC8000BBF9DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1AE52F91BF5DC8000BBF9DB /* ViewController.m in Sources */,
+				E1AE52F61BF5DC8000BBF9DB /* AppDelegate.m in Sources */,
+				E1AE52F31BF5DC8000BBF9DB /* main.m in Sources */,
+				E1AE52FF1BF5DC8000BBF9DB /* Caceis.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1AE53061BF5DC8000BBF9DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1AE530F1BF5DC8000BBF9DB /* CaceisTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1AE53111BF5DC8000BBF9DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1AE531A1BF5DC8000BBF9DB /* CaceisUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1AE530C1BF5DC8000BBF9DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1AE52ED1BF5DC8000BBF9DB /* Caceis */;
+			targetProxy = E1AE530B1BF5DC8000BBF9DB /* PBXContainerItemProxy */;
+		};
+		E1AE53171BF5DC8000BBF9DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1AE52ED1BF5DC8000BBF9DB /* Caceis */;
+			targetProxy = E1AE53161BF5DC8000BBF9DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1AE52FA1BF5DC8000BBF9DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1AE52FB1BF5DC8000BBF9DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1AE53021BF5DC8000BBF9DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1AE53031BF5DC8000BBF9DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1AE531C1BF5DC8000BBF9DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E1AE531D1BF5DC8000BBF9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1AE531F1BF5DC8000BBF9DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Caceis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grouphn.Caceis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E1AE53201BF5DC8000BBF9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Caceis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grouphn.Caceis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E1AE53221BF5DC8000BBF9DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CaceisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grouphn.CaceisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caceis.app/Caceis";
+			};
+			name = Debug;
+		};
+		E1AE53231BF5DC8000BBF9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CaceisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grouphn.CaceisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caceis.app/Caceis";
+			};
+			name = Release;
+		};
+		E1AE53251BF5DC8000BBF9DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CaceisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grouphn.CaceisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Caceis;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E1AE53261BF5DC8000BBF9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CaceisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grouphn.CaceisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Caceis;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1AE52E91BF5DC8000BBF9DB /* Build configuration list for PBXProject "Caceis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1AE531C1BF5DC8000BBF9DB /* Debug */,
+				E1AE531D1BF5DC8000BBF9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1AE531E1BF5DC8000BBF9DB /* Build configuration list for PBXNativeTarget "Caceis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1AE531F1BF5DC8000BBF9DB /* Debug */,
+				E1AE53201BF5DC8000BBF9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E1AE53211BF5DC8000BBF9DB /* Build configuration list for PBXNativeTarget "CaceisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1AE53221BF5DC8000BBF9DB /* Debug */,
+				E1AE53231BF5DC8000BBF9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E1AE53241BF5DC8000BBF9DB /* Build configuration list for PBXNativeTarget "CaceisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1AE53251BF5DC8000BBF9DB /* Debug */,
+				E1AE53261BF5DC8000BBF9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E1AE52FD1BF5DC8000BBF9DB /* Caceis.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E1AE52FE1BF5DC8000BBF9DB /* Caceis.xcdatamodel */,
+			);
+			currentVersion = E1AE52FE1BF5DC8000BBF9DB /* Caceis.xcdatamodel */;
+			path = Caceis.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E1AE52E61BF5DC8000BBF9DB /* Project object */;
+}
