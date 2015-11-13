@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		828071580A8C547C6F10CFC6 /* libPods-Caceis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC409B60E8EF91EAEC538FF3 /* libPods-Caceis.a */; };
 		E1AE52F31BF5DC8000BBF9DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE52F21BF5DC8000BBF9DB /* main.m */; };
 		E1AE52F61BF5DC8000BBF9DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE52F51BF5DC8000BBF9DB /* AppDelegate.m */; };
 		E1AE52F91BF5DC8000BBF9DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE52F81BF5DC8000BBF9DB /* ViewController.m */; };
@@ -16,6 +17,7 @@
 		E1AE53041BF5DC8000BBF9DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53021BF5DC8000BBF9DB /* LaunchScreen.storyboard */; };
 		E1AE530F1BF5DC8000BBF9DB /* CaceisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE530E1BF5DC8000BBF9DB /* CaceisTests.m */; };
 		E1AE531A1BF5DC8000BBF9DB /* CaceisUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE53191BF5DC8000BBF9DB /* CaceisUITests.m */; };
+		E1AE53311BF5DFEE00BBF9DB /* Emetteur.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE53301BF5DFEE00BBF9DB /* Emetteur.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B6BBD98B01C0AF32E50F8163 /* Pods-Caceis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Caceis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Caceis/Pods-Caceis.debug.xcconfig"; sourceTree = "<group>"; };
+		DC409B60E8EF91EAEC538FF3 /* libPods-Caceis.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Caceis.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1AE52EE1BF5DC8000BBF9DB /* Caceis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caceis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1AE52F21BF5DC8000BBF9DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E1AE52F41BF5DC8000BBF9DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -46,13 +50,16 @@
 		E1AE52FE1BF5DC8000BBF9DB /* Caceis.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Caceis.xcdatamodel; sourceTree = "<group>"; };
 		E1AE53001BF5DC8000BBF9DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1AE53031BF5DC8000BBF9DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E1AE53051BF5DC8000BBF9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1AE53051BF5DC8000BBF9DB /* Caceis-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Caceis-Info.plist"; sourceTree = "<group>"; };
 		E1AE530A1BF5DC8000BBF9DB /* CaceisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaceisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1AE530E1BF5DC8000BBF9DB /* CaceisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaceisTests.m; sourceTree = "<group>"; };
 		E1AE53101BF5DC8000BBF9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1AE53151BF5DC8000BBF9DB /* CaceisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaceisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1AE53191BF5DC8000BBF9DB /* CaceisUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaceisUITests.m; sourceTree = "<group>"; };
 		E1AE531B1BF5DC8000BBF9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1AE532F1BF5DFEE00BBF9DB /* Emetteur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Emetteur.h; sourceTree = "<group>"; };
+		E1AE53301BF5DFEE00BBF9DB /* Emetteur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Emetteur.m; sourceTree = "<group>"; };
+		E1ED1567002CA61B23917AAB /* Pods-Caceis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Caceis.release.xcconfig"; path = "Pods/Target Support Files/Pods-Caceis/Pods-Caceis.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				828071580A8C547C6F10CFC6 /* libPods-Caceis.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +88,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A0A347E8803343949A7CE07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6BBD98B01C0AF32E50F8163 /* Pods-Caceis.debug.xcconfig */,
+				E1ED1567002CA61B23917AAB /* Pods-Caceis.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D9C8C50BA2321EBCEB70081E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC409B60E8EF91EAEC538FF3 /* libPods-Caceis.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E1AE52E51BF5DC8000BBF9DB = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +112,8 @@
 				E1AE530D1BF5DC8000BBF9DB /* CaceisTests */,
 				E1AE53181BF5DC8000BBF9DB /* CaceisUITests */,
 				E1AE52EF1BF5DC8000BBF9DB /* Products */,
+				9A0A347E8803343949A7CE07 /* Pods */,
+				D9C8C50BA2321EBCEB70081E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,15 +130,16 @@
 		E1AE52F01BF5DC8000BBF9DB /* Caceis */ = {
 			isa = PBXGroup;
 			children = (
+				E1AE53271BF5DE1100BBF9DB /* Views */,
+				E1AE532C1BF5DE4E00BBF9DB /* Client */,
+				E1AE53281BF5DE1D00BBF9DB /* Model */,
+				E1AE532A1BF5DE2D00BBF9DB /* Controllers */,
+				E1AE53291BF5DE2400BBF9DB /* Helpers */,
 				E1AE52F41BF5DC8000BBF9DB /* AppDelegate.h */,
 				E1AE52F51BF5DC8000BBF9DB /* AppDelegate.m */,
-				E1AE52F71BF5DC8000BBF9DB /* ViewController.h */,
-				E1AE52F81BF5DC8000BBF9DB /* ViewController.m */,
 				E1AE52FA1BF5DC8000BBF9DB /* Main.storyboard */,
-				E1AE53001BF5DC8000BBF9DB /* Assets.xcassets */,
 				E1AE53021BF5DC8000BBF9DB /* LaunchScreen.storyboard */,
-				E1AE53051BF5DC8000BBF9DB /* Info.plist */,
-				E1AE52FD1BF5DC8000BBF9DB /* Caceis.xcdatamodeld */,
+				E1AE53001BF5DC8000BBF9DB /* Assets.xcassets */,
 				E1AE52F11BF5DC8000BBF9DB /* Supporting Files */,
 			);
 			path = Caceis;
@@ -120,6 +148,7 @@
 		E1AE52F11BF5DC8000BBF9DB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E1AE53051BF5DC8000BBF9DB /* Caceis-Info.plist */,
 				E1AE52F21BF5DC8000BBF9DB /* main.m */,
 			);
 			name = "Supporting Files";
@@ -143,6 +172,46 @@
 			path = CaceisUITests;
 			sourceTree = "<group>";
 		};
+		E1AE53271BF5DE1100BBF9DB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		E1AE53281BF5DE1D00BBF9DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E1AE52FD1BF5DC8000BBF9DB /* Caceis.xcdatamodeld */,
+				E1AE532F1BF5DFEE00BBF9DB /* Emetteur.h */,
+				E1AE53301BF5DFEE00BBF9DB /* Emetteur.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E1AE53291BF5DE2400BBF9DB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		E1AE532A1BF5DE2D00BBF9DB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E1AE52F71BF5DC8000BBF9DB /* ViewController.h */,
+				E1AE52F81BF5DC8000BBF9DB /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E1AE532C1BF5DE4E00BBF9DB /* Client */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1AE531E1BF5DC8000BBF9DB /* Build configuration list for PBXNativeTarget "Caceis" */;
 			buildPhases = (
+				0ADA61F7CA6AF0A113A55486 /* Check Pods Manifest.lock */,
 				E1AE52EA1BF5DC8000BBF9DB /* Sources */,
 				E1AE52EB1BF5DC8000BBF9DB /* Frameworks */,
 				E1AE52EC1BF5DC8000BBF9DB /* Resources */,
+				A2F9B0BC36438739705D38E7 /* Embed Pods Frameworks */,
+				E99F4D5EB78E00B1A3B2A872 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,12 +340,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0ADA61F7CA6AF0A113A55486 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A2F9B0BC36438739705D38E7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Caceis/Pods-Caceis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E99F4D5EB78E00B1A3B2A872 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Caceis/Pods-Caceis-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E1AE52EA1BF5DC8000BBF9DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E1AE52F91BF5DC8000BBF9DB /* ViewController.m in Sources */,
+				E1AE53311BF5DFEE00BBF9DB /* Emetteur.m in Sources */,
 				E1AE52F61BF5DC8000BBF9DB /* AppDelegate.m in Sources */,
 				E1AE52F31BF5DC8000BBF9DB /* main.m in Sources */,
 				E1AE52FF1BF5DC8000BBF9DB /* Caceis.xcdatamodeld in Sources */,
@@ -413,6 +534,7 @@
 		};
 		E1AE531F1BF5DC8000BBF9DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6BBD98B01C0AF32E50F8163 /* Pods-Caceis.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Caceis/Info.plist;
@@ -424,6 +546,7 @@
 		};
 		E1AE53201BF5DC8000BBF9DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1ED1567002CA61B23917AAB /* Pods-Caceis.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Caceis/Info.plist;
@@ -500,6 +623,7 @@
 				E1AE53201BF5DC8000BBF9DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1AE53211BF5DC8000BBF9DB /* Build configuration list for PBXNativeTarget "CaceisTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +632,7 @@
 				E1AE53231BF5DC8000BBF9DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1AE53241BF5DC8000BBF9DB /* Build configuration list for PBXNativeTarget "CaceisUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +641,7 @@
 				E1AE53261BF5DC8000BBF9DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
