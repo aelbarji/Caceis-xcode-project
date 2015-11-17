@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "EmetteurTableViewController.h"
+#import "CaceisClient.h"
+#import <Overcoat/Overcoat.h>
+#import <PromiseKit/PromiseKit.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +21,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
+    sleep(2);
     return YES;
 }
 

@@ -7,17 +7,79 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		828071580A8C547C6F10CFC6 /* libPods-Caceis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC409B60E8EF91EAEC538FF3 /* libPods-Caceis.a */; };
+		D910440429C0C7CEBF5900FC /* Pods_Caceis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69BBC4B009C9537D14F6B10B /* Pods_Caceis.framework */; };
 		E1AE52F31BF5DC8000BBF9DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE52F21BF5DC8000BBF9DB /* main.m */; };
 		E1AE52F61BF5DC8000BBF9DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE52F51BF5DC8000BBF9DB /* AppDelegate.m */; };
-		E1AE52F91BF5DC8000BBF9DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE52F81BF5DC8000BBF9DB /* ViewController.m */; };
 		E1AE52FC1BF5DC8000BBF9DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1AE52FA1BF5DC8000BBF9DB /* Main.storyboard */; };
-		E1AE52FF1BF5DC8000BBF9DB /* Caceis.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1AE52FD1BF5DC8000BBF9DB /* Caceis.xcdatamodeld */; };
 		E1AE53011BF5DC8000BBF9DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53001BF5DC8000BBF9DB /* Assets.xcassets */; };
 		E1AE53041BF5DC8000BBF9DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53021BF5DC8000BBF9DB /* LaunchScreen.storyboard */; };
 		E1AE530F1BF5DC8000BBF9DB /* CaceisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE530E1BF5DC8000BBF9DB /* CaceisTests.m */; };
 		E1AE531A1BF5DC8000BBF9DB /* CaceisUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE53191BF5DC8000BBF9DB /* CaceisUITests.m */; };
 		E1AE53311BF5DFEE00BBF9DB /* Emetteur.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE53301BF5DFEE00BBF9DB /* Emetteur.m */; };
+		E1AE53341BF5E62800BBF9DB /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE53331BF5E62800BBF9DB /* Message.m */; };
+		E1AE53371BF5E7AA00BBF9DB /* Action.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE53361BF5E7AA00BBF9DB /* Action.m */; };
+		E1AE533A1BF5E7F500BBF9DB /* ActionDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE53391BF5E7F500BBF9DB /* ActionDetail.m */; };
+		E1AE533D1BF5F10500BBF9DB /* chargement.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1AE533C1BF5F10500BBF9DB /* chargement.jpg */; };
+		E1AE53401BF5F21D00BBF9DB /* StockOption.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE533F1BF5F21D00BBF9DB /* StockOption.m */; };
+		E1AE53431BF5F23A00BBF9DB /* StockDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE53421BF5F23A00BBF9DB /* StockDetail.m */; };
+		E1AE53461BF5F52100BBF9DB /* AssembleGenerale.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE53451BF5F52100BBF9DB /* AssembleGenerale.m */; };
+		E1AE53491BF5F5DB00BBF9DB /* Paga.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE53481BF5F5DB00BBF9DB /* Paga.m */; };
+		E1AE534C1BF5F61700BBF9DB /* PagaDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE534B1BF5F61700BBF9DB /* PagaDetail.m */; };
+		E1AE534F1BF5F86700BBF9DB /* CaceisClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE534E1BF5F86700BBF9DB /* CaceisClient.m */; };
+		E1AE53521BF61E6B00BBF9DB /* CaceisErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE53511BF61E6B00BBF9DB /* CaceisErrorResponse.m */; };
+		E1AE53551BF61ED900BBF9DB /* CaceisError.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE53541BF61ED900BBF9DB /* CaceisError.m */; };
+		E1AE53581BF6231200BBF9DB /* EmetteurTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE53571BF6231200BBF9DB /* EmetteurTableViewController.m */; };
+		E1AE535B1BF62BA100BBF9DB /* EmetteurTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE535A1BF62BA100BBF9DB /* EmetteurTableViewCell.m */; };
+		E1AE535D1BF65E7200BBF9DB /* company.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AE535C1BF65E7200BBF9DB /* company.png */; };
+		E1AE53731BF9CBD800BBF9DB /* 3-bandes.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AE535E1BF9CBD800BBF9DB /* 3-bandes.png */; };
+		E1AE53741BF9CBD800BBF9DB /* AG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1AE535F1BF9CBD800BBF9DB /* AG.jpg */; };
+		E1AE53771BF9CBD800BBF9DB /* bouton-dashboard-off.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53621BF9CBD800BBF9DB /* bouton-dashboard-off.jpg */; };
+		E1AE53781BF9CBD800BBF9DB /* bouton-message-0-off.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53631BF9CBD800BBF9DB /* bouton-message-0-off.jpg */; };
+		E1AE53791BF9CBD800BBF9DB /* bouton-message-0-on.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53641BF9CBD800BBF9DB /* bouton-message-0-on.jpg */; };
+		E1AE537A1BF9CBD800BBF9DB /* bouton-message-1-off.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53651BF9CBD800BBF9DB /* bouton-message-1-off.jpg */; };
+		E1AE537B1BF9CBD800BBF9DB /* bouton-message-1-on.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53661BF9CBD800BBF9DB /* bouton-message-1-on.jpg */; };
+		E1AE537C1BF9CBD800BBF9DB /* bouton-operation-off.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53671BF9CBD800BBF9DB /* bouton-operation-off.jpg */; };
+		E1AE537D1BF9CBD800BBF9DB /* bouton-operation-on.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53681BF9CBD800BBF9DB /* bouton-operation-on.jpg */; };
+		E1AE537E1BF9CBD800BBF9DB /* bouton-portefeuille-off.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53691BF9CBD800BBF9DB /* bouton-portefeuille-off.jpg */; };
+		E1AE537F1BF9CBD800BBF9DB /* bouton-portefeuille-on.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1AE536A1BF9CBD800BBF9DB /* bouton-portefeuille-on.jpg */; };
+		E1AE53811BF9CBD800BBF9DB /* deconnexion.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AE536C1BF9CBD800BBF9DB /* deconnexion.png */; };
+		E1AE53821BF9CBD800BBF9DB /* fond.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1AE536D1BF9CBD800BBF9DB /* fond.jpg */; };
+		E1AE53831BF9CBD800BBF9DB /* message.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1AE536E1BF9CBD800BBF9DB /* message.jpg */; };
+		E1AE53841BF9CBD800BBF9DB /* operation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1AE536F1BF9CBD800BBF9DB /* operation.jpg */; };
+		E1AE53851BF9CBD800BBF9DB /* portefeuille.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53701BF9CBD800BBF9DB /* portefeuille.jpg */; };
+		E1AE53861BF9CBD800BBF9DB /* retour.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53711BF9CBD800BBF9DB /* retour.jpg */; };
+		E1AE53871BF9CBD800BBF9DB /* setting.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53721BF9CBD800BBF9DB /* setting.jpg */; };
+		E1AE538A1BF9E6D700BBF9DB /* bouton-ajout-selecteur.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53881BF9E6D700BBF9DB /* bouton-ajout-selecteur.png */; };
+		E1AE538B1BF9E6D700BBF9DB /* fond-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53891BF9E6D700BBF9DB /* fond-2.jpg */; };
+		E1AE539E1BFA0B3600BBF9DB /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1AE538E1BFA0B3600BBF9DB /* Roboto-Black.ttf */; };
+		E1AE539F1BFA0B3600BBF9DB /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1AE538F1BFA0B3600BBF9DB /* Roboto-BlackItalic.ttf */; };
+		E1AE53A01BFA0B3600BBF9DB /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53901BFA0B3600BBF9DB /* Roboto-Bold.ttf */; };
+		E1AE53A11BFA0B3600BBF9DB /* Roboto-BoldCondensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53911BFA0B3600BBF9DB /* Roboto-BoldCondensed.ttf */; };
+		E1AE53A21BFA0B3600BBF9DB /* Roboto-BoldCondensedItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53921BFA0B3600BBF9DB /* Roboto-BoldCondensedItalic.ttf */; };
+		E1AE53A31BFA0B3600BBF9DB /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53931BFA0B3600BBF9DB /* Roboto-BoldItalic.ttf */; };
+		E1AE53A41BFA0B3600BBF9DB /* Roboto-Condensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53941BFA0B3600BBF9DB /* Roboto-Condensed.ttf */; };
+		E1AE53A51BFA0B3600BBF9DB /* Roboto-CondensedItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53951BFA0B3600BBF9DB /* Roboto-CondensedItalic.ttf */; };
+		E1AE53A61BFA0B3600BBF9DB /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53961BFA0B3600BBF9DB /* Roboto-Italic.ttf */; };
+		E1AE53A71BFA0B3600BBF9DB /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53971BFA0B3600BBF9DB /* Roboto-Light.ttf */; };
+		E1AE53A81BFA0B3600BBF9DB /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53981BFA0B3600BBF9DB /* Roboto-LightItalic.ttf */; };
+		E1AE53A91BFA0B3600BBF9DB /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53991BFA0B3600BBF9DB /* Roboto-Medium.ttf */; };
+		E1AE53AA1BFA0B3600BBF9DB /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1AE539A1BFA0B3600BBF9DB /* Roboto-MediumItalic.ttf */; };
+		E1AE53AB1BFA0B3600BBF9DB /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1AE539B1BFA0B3600BBF9DB /* Roboto-Regular.ttf */; };
+		E1AE53AC1BFA0B3600BBF9DB /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1AE539C1BFA0B3600BBF9DB /* Roboto-Thin.ttf */; };
+		E1AE53AD1BFA0B3600BBF9DB /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1AE539D1BFA0B3600BBF9DB /* Roboto-ThinItalic.ttf */; };
+		E1AE53AF1BFA16DB00BBF9DB /* bouton-ajout-selecteur-2.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53AE1BFA16DB00BBF9DB /* bouton-ajout-selecteur-2.png */; };
+		E1AE53B11BFA2B9300BBF9DB /* Bar-Image.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53B01BFA2B9300BBF9DB /* Bar-Image.png */; };
+		E1AE53B31BFA3D9200BBF9DB /* logo-dashboard.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53B21BFA3D9200BBF9DB /* logo-dashboard.png */; };
+		E1AE53B51BFA3DF800BBF9DB /* dashboard-caceis.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53B41BFA3DF800BBF9DB /* dashboard-caceis.png */; };
+		E1AE53B71BFA754C00BBF9DB /* bouton-AG-off.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53B61BFA754C00BBF9DB /* bouton-AG-off.png */; };
+		E1AE53BB1BFA760D00BBF9DB /* bouton-AG-on.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53BA1BFA760D00BBF9DB /* bouton-AG-on.png */; };
+		E1AE53BD1BFA791700BBF9DB /* titres-actions.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53BC1BFA791700BBF9DB /* titres-actions.png */; };
+		E1AE53BF1BFA8A5100BBF9DB /* QR-code.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53BE1BFA8A5100BBF9DB /* QR-code.png */; };
+		E1AE53C11BFA8CAB00BBF9DB /* titre-bar-AG.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53C01BFA8CAB00BBF9DB /* titre-bar-AG.png */; };
+		E1AE53C31BFA8F9000BBF9DB /* titres-bar-messages.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53C21BFA8F9000BBF9DB /* titres-bar-messages.png */; };
+		E1AE53C61BFA97D000BBF9DB /* DismissSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE53C51BFA97D000BBF9DB /* DismissSegue.m */; };
+		E1AE53C91BFA996100BBF9DB /* DismissAndPresentSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE53C81BFA996100BBF9DB /* DismissAndPresentSegue.m */; };
+		E1AE53CC1BFB2DDE00BBF9DB /* Caceis.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1AE53CA1BFB2DDE00BBF9DB /* Caceis.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,19 +100,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		69BBC4B009C9537D14F6B10B /* Pods_Caceis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Caceis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6BBD98B01C0AF32E50F8163 /* Pods-Caceis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Caceis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Caceis/Pods-Caceis.debug.xcconfig"; sourceTree = "<group>"; };
-		DC409B60E8EF91EAEC538FF3 /* libPods-Caceis.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Caceis.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1AE52EE1BF5DC8000BBF9DB /* Caceis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caceis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1AE52F21BF5DC8000BBF9DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E1AE52F41BF5DC8000BBF9DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E1AE52F51BF5DC8000BBF9DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E1AE52F71BF5DC8000BBF9DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E1AE52F81BF5DC8000BBF9DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E1AE52FB1BF5DC8000BBF9DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E1AE52FE1BF5DC8000BBF9DB /* Caceis.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Caceis.xcdatamodel; sourceTree = "<group>"; };
 		E1AE53001BF5DC8000BBF9DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1AE53031BF5DC8000BBF9DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E1AE53051BF5DC8000BBF9DB /* Caceis-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Caceis-Info.plist"; sourceTree = "<group>"; };
+		E1AE53051BF5DC8000BBF9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1AE530A1BF5DC8000BBF9DB /* CaceisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaceisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1AE530E1BF5DC8000BBF9DB /* CaceisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaceisTests.m; sourceTree = "<group>"; };
 		E1AE53101BF5DC8000BBF9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,6 +118,85 @@
 		E1AE531B1BF5DC8000BBF9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1AE532F1BF5DFEE00BBF9DB /* Emetteur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Emetteur.h; sourceTree = "<group>"; };
 		E1AE53301BF5DFEE00BBF9DB /* Emetteur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Emetteur.m; sourceTree = "<group>"; };
+		E1AE53321BF5E62800BBF9DB /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		E1AE53331BF5E62800BBF9DB /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		E1AE53351BF5E7AA00BBF9DB /* Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Action.h; sourceTree = "<group>"; };
+		E1AE53361BF5E7AA00BBF9DB /* Action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Action.m; sourceTree = "<group>"; };
+		E1AE53381BF5E7F500BBF9DB /* ActionDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionDetail.h; sourceTree = "<group>"; };
+		E1AE53391BF5E7F500BBF9DB /* ActionDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionDetail.m; sourceTree = "<group>"; };
+		E1AE533C1BF5F10500BBF9DB /* chargement.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chargement.jpg; sourceTree = "<group>"; };
+		E1AE533E1BF5F21D00BBF9DB /* StockOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockOption.h; sourceTree = "<group>"; };
+		E1AE533F1BF5F21D00BBF9DB /* StockOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockOption.m; sourceTree = "<group>"; };
+		E1AE53411BF5F23A00BBF9DB /* StockDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockDetail.h; sourceTree = "<group>"; };
+		E1AE53421BF5F23A00BBF9DB /* StockDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockDetail.m; sourceTree = "<group>"; };
+		E1AE53441BF5F52100BBF9DB /* AssembleGenerale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssembleGenerale.h; sourceTree = "<group>"; };
+		E1AE53451BF5F52100BBF9DB /* AssembleGenerale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssembleGenerale.m; sourceTree = "<group>"; };
+		E1AE53471BF5F5DB00BBF9DB /* Paga.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Paga.h; sourceTree = "<group>"; };
+		E1AE53481BF5F5DB00BBF9DB /* Paga.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Paga.m; sourceTree = "<group>"; };
+		E1AE534A1BF5F61700BBF9DB /* PagaDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagaDetail.h; sourceTree = "<group>"; };
+		E1AE534B1BF5F61700BBF9DB /* PagaDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagaDetail.m; sourceTree = "<group>"; };
+		E1AE534D1BF5F86700BBF9DB /* CaceisClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaceisClient.h; sourceTree = "<group>"; };
+		E1AE534E1BF5F86700BBF9DB /* CaceisClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaceisClient.m; sourceTree = "<group>"; };
+		E1AE53501BF61E6B00BBF9DB /* CaceisErrorResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaceisErrorResponse.h; sourceTree = "<group>"; };
+		E1AE53511BF61E6B00BBF9DB /* CaceisErrorResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaceisErrorResponse.m; sourceTree = "<group>"; };
+		E1AE53531BF61ED900BBF9DB /* CaceisError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaceisError.h; sourceTree = "<group>"; };
+		E1AE53541BF61ED900BBF9DB /* CaceisError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaceisError.m; sourceTree = "<group>"; };
+		E1AE53561BF6231200BBF9DB /* EmetteurTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmetteurTableViewController.h; sourceTree = "<group>"; };
+		E1AE53571BF6231200BBF9DB /* EmetteurTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmetteurTableViewController.m; sourceTree = "<group>"; };
+		E1AE53591BF62BA100BBF9DB /* EmetteurTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmetteurTableViewCell.h; sourceTree = "<group>"; };
+		E1AE535A1BF62BA100BBF9DB /* EmetteurTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmetteurTableViewCell.m; sourceTree = "<group>"; };
+		E1AE535C1BF65E7200BBF9DB /* company.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = company.png; sourceTree = "<group>"; };
+		E1AE535E1BF9CBD800BBF9DB /* 3-bandes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3-bandes.png"; sourceTree = "<group>"; };
+		E1AE535F1BF9CBD800BBF9DB /* AG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AG.jpg; sourceTree = "<group>"; };
+		E1AE53621BF9CBD800BBF9DB /* bouton-dashboard-off.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bouton-dashboard-off.jpg"; sourceTree = "<group>"; };
+		E1AE53631BF9CBD800BBF9DB /* bouton-message-0-off.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bouton-message-0-off.jpg"; sourceTree = "<group>"; };
+		E1AE53641BF9CBD800BBF9DB /* bouton-message-0-on.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bouton-message-0-on.jpg"; sourceTree = "<group>"; };
+		E1AE53651BF9CBD800BBF9DB /* bouton-message-1-off.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bouton-message-1-off.jpg"; sourceTree = "<group>"; };
+		E1AE53661BF9CBD800BBF9DB /* bouton-message-1-on.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bouton-message-1-on.jpg"; sourceTree = "<group>"; };
+		E1AE53671BF9CBD800BBF9DB /* bouton-operation-off.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bouton-operation-off.jpg"; sourceTree = "<group>"; };
+		E1AE53681BF9CBD800BBF9DB /* bouton-operation-on.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bouton-operation-on.jpg"; sourceTree = "<group>"; };
+		E1AE53691BF9CBD800BBF9DB /* bouton-portefeuille-off.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bouton-portefeuille-off.jpg"; sourceTree = "<group>"; };
+		E1AE536A1BF9CBD800BBF9DB /* bouton-portefeuille-on.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bouton-portefeuille-on.jpg"; sourceTree = "<group>"; };
+		E1AE536C1BF9CBD800BBF9DB /* deconnexion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deconnexion.png; sourceTree = "<group>"; };
+		E1AE536D1BF9CBD800BBF9DB /* fond.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fond.jpg; sourceTree = "<group>"; };
+		E1AE536E1BF9CBD800BBF9DB /* message.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = message.jpg; sourceTree = "<group>"; };
+		E1AE536F1BF9CBD800BBF9DB /* operation.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = operation.jpg; sourceTree = "<group>"; };
+		E1AE53701BF9CBD800BBF9DB /* portefeuille.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = portefeuille.jpg; sourceTree = "<group>"; };
+		E1AE53711BF9CBD800BBF9DB /* retour.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = retour.jpg; sourceTree = "<group>"; };
+		E1AE53721BF9CBD800BBF9DB /* setting.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = setting.jpg; sourceTree = "<group>"; };
+		E1AE53881BF9E6D700BBF9DB /* bouton-ajout-selecteur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bouton-ajout-selecteur.png"; sourceTree = "<group>"; };
+		E1AE53891BF9E6D700BBF9DB /* fond-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fond-2.jpg"; sourceTree = "<group>"; };
+		E1AE538E1BFA0B3600BBF9DB /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		E1AE538F1BFA0B3600BBF9DB /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		E1AE53901BFA0B3600BBF9DB /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		E1AE53911BFA0B3600BBF9DB /* Roboto-BoldCondensed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldCondensed.ttf"; sourceTree = "<group>"; };
+		E1AE53921BFA0B3600BBF9DB /* Roboto-BoldCondensedItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldCondensedItalic.ttf"; sourceTree = "<group>"; };
+		E1AE53931BFA0B3600BBF9DB /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		E1AE53941BFA0B3600BBF9DB /* Roboto-Condensed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Condensed.ttf"; sourceTree = "<group>"; };
+		E1AE53951BFA0B3600BBF9DB /* Roboto-CondensedItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-CondensedItalic.ttf"; sourceTree = "<group>"; };
+		E1AE53961BFA0B3600BBF9DB /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		E1AE53971BFA0B3600BBF9DB /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		E1AE53981BFA0B3600BBF9DB /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		E1AE53991BFA0B3600BBF9DB /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		E1AE539A1BFA0B3600BBF9DB /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		E1AE539B1BFA0B3600BBF9DB /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		E1AE539C1BFA0B3600BBF9DB /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		E1AE539D1BFA0B3600BBF9DB /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		E1AE53AE1BFA16DB00BBF9DB /* bouton-ajout-selecteur-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bouton-ajout-selecteur-2.png"; sourceTree = "<group>"; };
+		E1AE53B01BFA2B9300BBF9DB /* Bar-Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bar-Image.png"; sourceTree = "<group>"; };
+		E1AE53B21BFA3D9200BBF9DB /* logo-dashboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-dashboard.png"; sourceTree = "<group>"; };
+		E1AE53B41BFA3DF800BBF9DB /* dashboard-caceis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dashboard-caceis.png"; sourceTree = "<group>"; };
+		E1AE53B61BFA754C00BBF9DB /* bouton-AG-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bouton-AG-off.png"; sourceTree = "<group>"; };
+		E1AE53BA1BFA760D00BBF9DB /* bouton-AG-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bouton-AG-on.png"; sourceTree = "<group>"; };
+		E1AE53BC1BFA791700BBF9DB /* titres-actions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "titres-actions.png"; sourceTree = "<group>"; };
+		E1AE53BE1BFA8A5100BBF9DB /* QR-code.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QR-code.png"; sourceTree = "<group>"; };
+		E1AE53C01BFA8CAB00BBF9DB /* titre-bar-AG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "titre-bar-AG.png"; sourceTree = "<group>"; };
+		E1AE53C21BFA8F9000BBF9DB /* titres-bar-messages.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "titres-bar-messages.png"; sourceTree = "<group>"; };
+		E1AE53C41BFA97D000BBF9DB /* DismissSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissSegue.h; sourceTree = "<group>"; };
+		E1AE53C51BFA97D000BBF9DB /* DismissSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissSegue.m; sourceTree = "<group>"; };
+		E1AE53C71BFA996100BBF9DB /* DismissAndPresentSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissAndPresentSegue.h; sourceTree = "<group>"; };
+		E1AE53C81BFA996100BBF9DB /* DismissAndPresentSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissAndPresentSegue.m; sourceTree = "<group>"; };
+		E1AE53CB1BFB2DDE00BBF9DB /* Caceis.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Caceis.xcdatamodel; sourceTree = "<group>"; };
 		E1ED1567002CA61B23917AAB /* Pods-Caceis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Caceis.release.xcconfig"; path = "Pods/Target Support Files/Pods-Caceis/Pods-Caceis.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,7 +205,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				828071580A8C547C6F10CFC6 /* libPods-Caceis.a in Frameworks */,
+				D910440429C0C7CEBF5900FC /* Pods_Caceis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,7 +238,7 @@
 		D9C8C50BA2321EBCEB70081E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DC409B60E8EF91EAEC538FF3 /* libPods-Caceis.a */,
+				69BBC4B009C9537D14F6B10B /* Pods_Caceis.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -130,6 +268,7 @@
 		E1AE52F01BF5DC8000BBF9DB /* Caceis */ = {
 			isa = PBXGroup;
 			children = (
+				E1AE538C1BFA0AA500BBF9DB /* Ressources */,
 				E1AE53271BF5DE1100BBF9DB /* Views */,
 				E1AE532C1BF5DE4E00BBF9DB /* Client */,
 				E1AE53281BF5DE1D00BBF9DB /* Model */,
@@ -148,7 +287,7 @@
 		E1AE52F11BF5DC8000BBF9DB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E1AE53051BF5DC8000BBF9DB /* Caceis-Info.plist */,
+				E1AE53051BF5DC8000BBF9DB /* Info.plist */,
 				E1AE52F21BF5DC8000BBF9DB /* main.m */,
 			);
 			name = "Supporting Files";
@@ -175,6 +314,8 @@
 		E1AE53271BF5DE1100BBF9DB /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E1AE53591BF62BA100BBF9DB /* EmetteurTableViewCell.h */,
+				E1AE535A1BF62BA100BBF9DB /* EmetteurTableViewCell.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -182,9 +323,29 @@
 		E1AE53281BF5DE1D00BBF9DB /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				E1AE52FD1BF5DC8000BBF9DB /* Caceis.xcdatamodeld */,
 				E1AE532F1BF5DFEE00BBF9DB /* Emetteur.h */,
 				E1AE53301BF5DFEE00BBF9DB /* Emetteur.m */,
+				E1AE53321BF5E62800BBF9DB /* Message.h */,
+				E1AE53331BF5E62800BBF9DB /* Message.m */,
+				E1AE53351BF5E7AA00BBF9DB /* Action.h */,
+				E1AE53361BF5E7AA00BBF9DB /* Action.m */,
+				E1AE53381BF5E7F500BBF9DB /* ActionDetail.h */,
+				E1AE53391BF5E7F500BBF9DB /* ActionDetail.m */,
+				E1AE533E1BF5F21D00BBF9DB /* StockOption.h */,
+				E1AE533F1BF5F21D00BBF9DB /* StockOption.m */,
+				E1AE53411BF5F23A00BBF9DB /* StockDetail.h */,
+				E1AE53421BF5F23A00BBF9DB /* StockDetail.m */,
+				E1AE53441BF5F52100BBF9DB /* AssembleGenerale.h */,
+				E1AE53451BF5F52100BBF9DB /* AssembleGenerale.m */,
+				E1AE53471BF5F5DB00BBF9DB /* Paga.h */,
+				E1AE53481BF5F5DB00BBF9DB /* Paga.m */,
+				E1AE534A1BF5F61700BBF9DB /* PagaDetail.h */,
+				E1AE534B1BF5F61700BBF9DB /* PagaDetail.m */,
+				E1AE53501BF61E6B00BBF9DB /* CaceisErrorResponse.h */,
+				E1AE53511BF61E6B00BBF9DB /* CaceisErrorResponse.m */,
+				E1AE53531BF61ED900BBF9DB /* CaceisError.h */,
+				E1AE53541BF61ED900BBF9DB /* CaceisError.m */,
+				E1AE53CA1BFB2DDE00BBF9DB /* Caceis.xcdatamodeld */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -192,6 +353,10 @@
 		E1AE53291BF5DE2400BBF9DB /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				E1AE53C41BFA97D000BBF9DB /* DismissSegue.h */,
+				E1AE53C51BFA97D000BBF9DB /* DismissSegue.m */,
+				E1AE53C71BFA996100BBF9DB /* DismissAndPresentSegue.h */,
+				E1AE53C81BFA996100BBF9DB /* DismissAndPresentSegue.m */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -199,8 +364,8 @@
 		E1AE532A1BF5DE2D00BBF9DB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				E1AE52F71BF5DC8000BBF9DB /* ViewController.h */,
-				E1AE52F81BF5DC8000BBF9DB /* ViewController.m */,
+				E1AE53561BF6231200BBF9DB /* EmetteurTableViewController.h */,
+				E1AE53571BF6231200BBF9DB /* EmetteurTableViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -208,8 +373,81 @@
 		E1AE532C1BF5DE4E00BBF9DB /* Client */ = {
 			isa = PBXGroup;
 			children = (
+				E1AE534D1BF5F86700BBF9DB /* CaceisClient.h */,
+				E1AE534E1BF5F86700BBF9DB /* CaceisClient.m */,
 			);
 			name = Client;
+			sourceTree = "<group>";
+		};
+		E1AE533B1BF5F0F600BBF9DB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E1AE53C21BFA8F9000BBF9DB /* titres-bar-messages.png */,
+				E1AE53C01BFA8CAB00BBF9DB /* titre-bar-AG.png */,
+				E1AE53BE1BFA8A5100BBF9DB /* QR-code.png */,
+				E1AE53BC1BFA791700BBF9DB /* titres-actions.png */,
+				E1AE53B01BFA2B9300BBF9DB /* Bar-Image.png */,
+				E1AE535E1BF9CBD800BBF9DB /* 3-bandes.png */,
+				E1AE535F1BF9CBD800BBF9DB /* AG.jpg */,
+				E1AE53B61BFA754C00BBF9DB /* bouton-AG-off.png */,
+				E1AE53BA1BFA760D00BBF9DB /* bouton-AG-on.png */,
+				E1AE53621BF9CBD800BBF9DB /* bouton-dashboard-off.jpg */,
+				E1AE53631BF9CBD800BBF9DB /* bouton-message-0-off.jpg */,
+				E1AE53641BF9CBD800BBF9DB /* bouton-message-0-on.jpg */,
+				E1AE53881BF9E6D700BBF9DB /* bouton-ajout-selecteur.png */,
+				E1AE53AE1BFA16DB00BBF9DB /* bouton-ajout-selecteur-2.png */,
+				E1AE53B41BFA3DF800BBF9DB /* dashboard-caceis.png */,
+				E1AE53B21BFA3D9200BBF9DB /* logo-dashboard.png */,
+				E1AE53891BF9E6D700BBF9DB /* fond-2.jpg */,
+				E1AE53651BF9CBD800BBF9DB /* bouton-message-1-off.jpg */,
+				E1AE53661BF9CBD800BBF9DB /* bouton-message-1-on.jpg */,
+				E1AE53671BF9CBD800BBF9DB /* bouton-operation-off.jpg */,
+				E1AE53681BF9CBD800BBF9DB /* bouton-operation-on.jpg */,
+				E1AE53691BF9CBD800BBF9DB /* bouton-portefeuille-off.jpg */,
+				E1AE536A1BF9CBD800BBF9DB /* bouton-portefeuille-on.jpg */,
+				E1AE536C1BF9CBD800BBF9DB /* deconnexion.png */,
+				E1AE536D1BF9CBD800BBF9DB /* fond.jpg */,
+				E1AE536E1BF9CBD800BBF9DB /* message.jpg */,
+				E1AE536F1BF9CBD800BBF9DB /* operation.jpg */,
+				E1AE53701BF9CBD800BBF9DB /* portefeuille.jpg */,
+				E1AE53711BF9CBD800BBF9DB /* retour.jpg */,
+				E1AE53721BF9CBD800BBF9DB /* setting.jpg */,
+				E1AE533C1BF5F10500BBF9DB /* chargement.jpg */,
+				E1AE535C1BF65E7200BBF9DB /* company.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		E1AE538C1BFA0AA500BBF9DB /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				E1AE538D1BFA0AB300BBF9DB /* Fonts */,
+				E1AE533B1BF5F0F600BBF9DB /* Images */,
+			);
+			name = Ressources;
+			sourceTree = "<group>";
+		};
+		E1AE538D1BFA0AB300BBF9DB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E1AE538E1BFA0B3600BBF9DB /* Roboto-Black.ttf */,
+				E1AE538F1BFA0B3600BBF9DB /* Roboto-BlackItalic.ttf */,
+				E1AE53901BFA0B3600BBF9DB /* Roboto-Bold.ttf */,
+				E1AE53911BFA0B3600BBF9DB /* Roboto-BoldCondensed.ttf */,
+				E1AE53921BFA0B3600BBF9DB /* Roboto-BoldCondensedItalic.ttf */,
+				E1AE53931BFA0B3600BBF9DB /* Roboto-BoldItalic.ttf */,
+				E1AE53941BFA0B3600BBF9DB /* Roboto-Condensed.ttf */,
+				E1AE53951BFA0B3600BBF9DB /* Roboto-CondensedItalic.ttf */,
+				E1AE53961BFA0B3600BBF9DB /* Roboto-Italic.ttf */,
+				E1AE53971BFA0B3600BBF9DB /* Roboto-Light.ttf */,
+				E1AE53981BFA0B3600BBF9DB /* Roboto-LightItalic.ttf */,
+				E1AE53991BFA0B3600BBF9DB /* Roboto-Medium.ttf */,
+				E1AE539A1BFA0B3600BBF9DB /* Roboto-MediumItalic.ttf */,
+				E1AE539B1BFA0B3600BBF9DB /* Roboto-Regular.ttf */,
+				E1AE539C1BFA0B3600BBF9DB /* Roboto-Thin.ttf */,
+				E1AE539D1BFA0B3600BBF9DB /* Roboto-ThinItalic.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,9 +556,57 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1AE537C1BF9CBD800BBF9DB /* bouton-operation-off.jpg in Resources */,
+				E1AE53A61BFA0B3600BBF9DB /* Roboto-Italic.ttf in Resources */,
+				E1AE539F1BFA0B3600BBF9DB /* Roboto-BlackItalic.ttf in Resources */,
+				E1AE53B51BFA3DF800BBF9DB /* dashboard-caceis.png in Resources */,
+				E1AE53A01BFA0B3600BBF9DB /* Roboto-Bold.ttf in Resources */,
+				E1AE537E1BF9CBD800BBF9DB /* bouton-portefeuille-off.jpg in Resources */,
+				E1AE53C11BFA8CAB00BBF9DB /* titre-bar-AG.png in Resources */,
+				E1AE53781BF9CBD800BBF9DB /* bouton-message-0-off.jpg in Resources */,
+				E1AE53BF1BFA8A5100BBF9DB /* QR-code.png in Resources */,
+				E1AE53AF1BFA16DB00BBF9DB /* bouton-ajout-selecteur-2.png in Resources */,
+				E1AE53A21BFA0B3600BBF9DB /* Roboto-BoldCondensedItalic.ttf in Resources */,
+				E1AE53B11BFA2B9300BBF9DB /* Bar-Image.png in Resources */,
+				E1AE53771BF9CBD800BBF9DB /* bouton-dashboard-off.jpg in Resources */,
+				E1AE538A1BF9E6D700BBF9DB /* bouton-ajout-selecteur.png in Resources */,
+				E1AE53741BF9CBD800BBF9DB /* AG.jpg in Resources */,
+				E1AE537D1BF9CBD800BBF9DB /* bouton-operation-on.jpg in Resources */,
+				E1AE53A11BFA0B3600BBF9DB /* Roboto-BoldCondensed.ttf in Resources */,
+				E1AE53A31BFA0B3600BBF9DB /* Roboto-BoldItalic.ttf in Resources */,
+				E1AE53AC1BFA0B3600BBF9DB /* Roboto-Thin.ttf in Resources */,
 				E1AE53041BF5DC8000BBF9DB /* LaunchScreen.storyboard in Resources */,
 				E1AE53011BF5DC8000BBF9DB /* Assets.xcassets in Resources */,
+				E1AE537A1BF9CBD800BBF9DB /* bouton-message-1-off.jpg in Resources */,
+				E1AE53AB1BFA0B3600BBF9DB /* Roboto-Regular.ttf in Resources */,
+				E1AE539E1BFA0B3600BBF9DB /* Roboto-Black.ttf in Resources */,
+				E1AE53A41BFA0B3600BBF9DB /* Roboto-Condensed.ttf in Resources */,
+				E1AE53B71BFA754C00BBF9DB /* bouton-AG-off.png in Resources */,
+				E1AE53BB1BFA760D00BBF9DB /* bouton-AG-on.png in Resources */,
+				E1AE537B1BF9CBD800BBF9DB /* bouton-message-1-on.jpg in Resources */,
+				E1AE53791BF9CBD800BBF9DB /* bouton-message-0-on.jpg in Resources */,
+				E1AE53731BF9CBD800BBF9DB /* 3-bandes.png in Resources */,
+				E1AE53831BF9CBD800BBF9DB /* message.jpg in Resources */,
+				E1AE53AD1BFA0B3600BBF9DB /* Roboto-ThinItalic.ttf in Resources */,
+				E1AE53BD1BFA791700BBF9DB /* titres-actions.png in Resources */,
+				E1AE53851BF9CBD800BBF9DB /* portefeuille.jpg in Resources */,
+				E1AE53A71BFA0B3600BBF9DB /* Roboto-Light.ttf in Resources */,
+				E1AE53A91BFA0B3600BBF9DB /* Roboto-Medium.ttf in Resources */,
+				E1AE53871BF9CBD800BBF9DB /* setting.jpg in Resources */,
+				E1AE53B31BFA3D9200BBF9DB /* logo-dashboard.png in Resources */,
+				E1AE538B1BF9E6D700BBF9DB /* fond-2.jpg in Resources */,
 				E1AE52FC1BF5DC8000BBF9DB /* Main.storyboard in Resources */,
+				E1AE53811BF9CBD800BBF9DB /* deconnexion.png in Resources */,
+				E1AE53C31BFA8F9000BBF9DB /* titres-bar-messages.png in Resources */,
+				E1AE53861BF9CBD800BBF9DB /* retour.jpg in Resources */,
+				E1AE53841BF9CBD800BBF9DB /* operation.jpg in Resources */,
+				E1AE53A51BFA0B3600BBF9DB /* Roboto-CondensedItalic.ttf in Resources */,
+				E1AE535D1BF65E7200BBF9DB /* company.png in Resources */,
+				E1AE53A81BFA0B3600BBF9DB /* Roboto-LightItalic.ttf in Resources */,
+				E1AE53AA1BFA0B3600BBF9DB /* Roboto-MediumItalic.ttf in Resources */,
+				E1AE533D1BF5F10500BBF9DB /* chargement.jpg in Resources */,
+				E1AE53821BF9CBD800BBF9DB /* fond.jpg in Resources */,
+				E1AE537F1BF9CBD800BBF9DB /* bouton-portefeuille-on.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,11 +679,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1AE52F91BF5DC8000BBF9DB /* ViewController.m in Sources */,
+				E1AE53CC1BFB2DDE00BBF9DB /* Caceis.xcdatamodeld in Sources */,
+				E1AE535B1BF62BA100BBF9DB /* EmetteurTableViewCell.m in Sources */,
+				E1AE53401BF5F21D00BBF9DB /* StockOption.m in Sources */,
+				E1AE534F1BF5F86700BBF9DB /* CaceisClient.m in Sources */,
+				E1AE53341BF5E62800BBF9DB /* Message.m in Sources */,
+				E1AE533A1BF5E7F500BBF9DB /* ActionDetail.m in Sources */,
 				E1AE53311BF5DFEE00BBF9DB /* Emetteur.m in Sources */,
 				E1AE52F61BF5DC8000BBF9DB /* AppDelegate.m in Sources */,
 				E1AE52F31BF5DC8000BBF9DB /* main.m in Sources */,
-				E1AE52FF1BF5DC8000BBF9DB /* Caceis.xcdatamodeld in Sources */,
+				E1AE53461BF5F52100BBF9DB /* AssembleGenerale.m in Sources */,
+				E1AE53C91BFA996100BBF9DB /* DismissAndPresentSegue.m in Sources */,
+				E1AE53581BF6231200BBF9DB /* EmetteurTableViewController.m in Sources */,
+				E1AE53C61BFA97D000BBF9DB /* DismissSegue.m in Sources */,
+				E1AE53371BF5E7AA00BBF9DB /* Action.m in Sources */,
+				E1AE53551BF61ED900BBF9DB /* CaceisError.m in Sources */,
+				E1AE53491BF5F5DB00BBF9DB /* Paga.m in Sources */,
+				E1AE53431BF5F23A00BBF9DB /* StockDetail.m in Sources */,
+				E1AE534C1BF5F61700BBF9DB /* PagaDetail.m in Sources */,
+				E1AE53521BF61E6B00BBF9DB /* CaceisErrorResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -646,12 +946,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		E1AE52FD1BF5DC8000BBF9DB /* Caceis.xcdatamodeld */ = {
+		E1AE53CA1BFB2DDE00BBF9DB /* Caceis.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				E1AE52FE1BF5DC8000BBF9DB /* Caceis.xcdatamodel */,
+				E1AE53CB1BFB2DDE00BBF9DB /* Caceis.xcdatamodel */,
 			);
-			currentVersion = E1AE52FE1BF5DC8000BBF9DB /* Caceis.xcdatamodel */;
+			currentVersion = E1AE53CB1BFB2DDE00BBF9DB /* Caceis.xcdatamodel */;
 			path = Caceis.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

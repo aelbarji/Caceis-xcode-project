@@ -1,0 +1,53 @@
+PODS:
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - Mantle (2.0.5):
+    - Mantle/extobjc (= 2.0.5)
+  - Mantle/extobjc (2.0.5)
+  - Overcoat (3.2.1):
+    - Overcoat/NSURLConnection (= 3.2.1)
+    - Overcoat/NSURLSession (= 3.2.1)
+  - Overcoat/Core (3.2.1):
+    - AFNetworking/Serialization
+    - Mantle
+  - Overcoat/NSURLConnection (3.2.1):
+    - AFNetworking/NSURLConnection
+    - Overcoat/Core
+  - Overcoat/NSURLSession (3.2.1):
+    - AFNetworking/NSURLSession
+    - Overcoat/Core
+  - Overcoat/PromiseKit (3.2.1):
+    - Overcoat/PromiseKit/NSURLConnection (= 3.2.1)
+    - Overcoat/PromiseKit/NSURLSession (= 3.2.1)
+    - PromiseKit/CorePromise (> 2)
+  - Overcoat/PromiseKit/NSURLConnection (3.2.1):
+    - Overcoat/NSURLConnection
+    - PromiseKit/CorePromise (> 2)
+  - Overcoat/PromiseKit/NSURLSession (3.2.1):
+    - Overcoat/NSURLSession
+    - PromiseKit/CorePromise (> 2)
+  - PromiseKit/CorePromise (3.0.0)
+  - YLProgressBar (3.8.0)
+
+DEPENDENCIES:
+  - Overcoat (~> 3.0)
+  - Overcoat/PromiseKit (~> 3.0)
+  - YLProgressBar (~> 3.8.0)
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  Mantle: 1912395033f601de5adc8ee91e48f46e4c7051ad
+  Overcoat: ce2bd0bfee6e300839cb244799c9e1e1aa70c06a
+  PromiseKit: 665540a1eb43156446872dcf49ed7dee6ebbe13b
+  YLProgressBar: b6ec76bea4a1b8d6bdfd2995d828055a7e5f3e9a
+
+COCOAPODS: 0.39.0

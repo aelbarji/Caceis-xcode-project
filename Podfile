@@ -5,7 +5,11 @@
 
 target 'Caceis' do
 
+pod 'Overcoat/PromiseKit', '~>3.0'
+use_frameworks!
+
 pod 'Overcoat', '~>3.0'
+pod 'YLProgressBar', '~> 3.8.0'
 
 end
 
