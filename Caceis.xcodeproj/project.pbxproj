@@ -18,7 +18,6 @@
 		E1AE53311BF5DFEE00BBF9DB /* Emetteur.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE53301BF5DFEE00BBF9DB /* Emetteur.m */; };
 		E1AE53341BF5E62800BBF9DB /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE53331BF5E62800BBF9DB /* Message.m */; };
 		E1AE53371BF5E7AA00BBF9DB /* Action.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE53361BF5E7AA00BBF9DB /* Action.m */; };
-		E1AE533A1BF5E7F500BBF9DB /* ActionDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE53391BF5E7F500BBF9DB /* ActionDetail.m */; };
 		E1AE533D1BF5F10500BBF9DB /* chargement.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1AE533C1BF5F10500BBF9DB /* chargement.jpg */; };
 		E1AE53401BF5F21D00BBF9DB /* StockOption.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE533F1BF5F21D00BBF9DB /* StockOption.m */; };
 		E1AE53431BF5F23A00BBF9DB /* StockDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE53421BF5F23A00BBF9DB /* StockDetail.m */; };
@@ -80,6 +79,7 @@
 		E1AE53C61BFA97D000BBF9DB /* DismissSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE53C51BFA97D000BBF9DB /* DismissSegue.m */; };
 		E1AE53C91BFA996100BBF9DB /* DismissAndPresentSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE53C81BFA996100BBF9DB /* DismissAndPresentSegue.m */; };
 		E1AE53CC1BFB2DDE00BBF9DB /* Caceis.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1AE53CA1BFB2DDE00BBF9DB /* Caceis.xcdatamodeld */; };
+		E1AE53D01BFB30FE00BBF9DB /* ActionDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE53CF1BFB30FE00BBF9DB /* ActionDetail.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,10 +120,7 @@
 		E1AE53301BF5DFEE00BBF9DB /* Emetteur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Emetteur.m; sourceTree = "<group>"; };
 		E1AE53321BF5E62800BBF9DB /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
 		E1AE53331BF5E62800BBF9DB /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
-		E1AE53351BF5E7AA00BBF9DB /* Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Action.h; sourceTree = "<group>"; };
 		E1AE53361BF5E7AA00BBF9DB /* Action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Action.m; sourceTree = "<group>"; };
-		E1AE53381BF5E7F500BBF9DB /* ActionDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionDetail.h; sourceTree = "<group>"; };
-		E1AE53391BF5E7F500BBF9DB /* ActionDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionDetail.m; sourceTree = "<group>"; };
 		E1AE533C1BF5F10500BBF9DB /* chargement.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chargement.jpg; sourceTree = "<group>"; };
 		E1AE533E1BF5F21D00BBF9DB /* StockOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockOption.h; sourceTree = "<group>"; };
 		E1AE533F1BF5F21D00BBF9DB /* StockOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockOption.m; sourceTree = "<group>"; };
@@ -197,6 +194,9 @@
 		E1AE53C71BFA996100BBF9DB /* DismissAndPresentSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissAndPresentSegue.h; sourceTree = "<group>"; };
 		E1AE53C81BFA996100BBF9DB /* DismissAndPresentSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissAndPresentSegue.m; sourceTree = "<group>"; };
 		E1AE53CB1BFB2DDE00BBF9DB /* Caceis.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Caceis.xcdatamodel; sourceTree = "<group>"; };
+		E1AE53CD1BFB307D00BBF9DB /* Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Action.h; sourceTree = "<group>"; };
+		E1AE53CE1BFB30FE00BBF9DB /* ActionDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionDetail.h; sourceTree = "<group>"; };
+		E1AE53CF1BFB30FE00BBF9DB /* ActionDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionDetail.m; sourceTree = "<group>"; };
 		E1ED1567002CA61B23917AAB /* Pods-Caceis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Caceis.release.xcconfig"; path = "Pods/Target Support Files/Pods-Caceis/Pods-Caceis.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -327,10 +327,10 @@
 				E1AE53301BF5DFEE00BBF9DB /* Emetteur.m */,
 				E1AE53321BF5E62800BBF9DB /* Message.h */,
 				E1AE53331BF5E62800BBF9DB /* Message.m */,
-				E1AE53351BF5E7AA00BBF9DB /* Action.h */,
+				E1AE53CD1BFB307D00BBF9DB /* Action.h */,
 				E1AE53361BF5E7AA00BBF9DB /* Action.m */,
-				E1AE53381BF5E7F500BBF9DB /* ActionDetail.h */,
-				E1AE53391BF5E7F500BBF9DB /* ActionDetail.m */,
+				E1AE53CE1BFB30FE00BBF9DB /* ActionDetail.h */,
+				E1AE53CF1BFB30FE00BBF9DB /* ActionDetail.m */,
 				E1AE533E1BF5F21D00BBF9DB /* StockOption.h */,
 				E1AE533F1BF5F21D00BBF9DB /* StockOption.m */,
 				E1AE53411BF5F23A00BBF9DB /* StockDetail.h */,
@@ -684,7 +684,6 @@
 				E1AE53401BF5F21D00BBF9DB /* StockOption.m in Sources */,
 				E1AE534F1BF5F86700BBF9DB /* CaceisClient.m in Sources */,
 				E1AE53341BF5E62800BBF9DB /* Message.m in Sources */,
-				E1AE533A1BF5E7F500BBF9DB /* ActionDetail.m in Sources */,
 				E1AE53311BF5DFEE00BBF9DB /* Emetteur.m in Sources */,
 				E1AE52F61BF5DC8000BBF9DB /* AppDelegate.m in Sources */,
 				E1AE52F31BF5DC8000BBF9DB /* main.m in Sources */,
@@ -693,6 +692,7 @@
 				E1AE53581BF6231200BBF9DB /* EmetteurTableViewController.m in Sources */,
 				E1AE53C61BFA97D000BBF9DB /* DismissSegue.m in Sources */,
 				E1AE53371BF5E7AA00BBF9DB /* Action.m in Sources */,
+				E1AE53D01BFB30FE00BBF9DB /* ActionDetail.m in Sources */,
 				E1AE53551BF61ED900BBF9DB /* CaceisError.m in Sources */,
 				E1AE53491BF5F5DB00BBF9DB /* Paga.m in Sources */,
 				E1AE53431BF5F23A00BBF9DB /* StockDetail.m in Sources */,
