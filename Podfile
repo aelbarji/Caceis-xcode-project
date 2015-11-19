@@ -10,6 +10,7 @@ use_frameworks!
 
 pod 'Overcoat', '~>3.0'
 pod 'YLProgressBar', '~> 3.8.0'
+pod 'MBProgressHUD', '~> 0.9.1'
 
 end
 

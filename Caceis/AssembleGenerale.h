@@ -16,7 +16,7 @@
 
 @property (copy, nonatomic, readonly) NSString *longitude;
 
-@property (copy, nonatomic, readonly) NSString *date;
+@property (copy, nonatomic, readonly) NSDate *date;
 
 @property (copy, nonatomic, readonly) NSString *heure;
 

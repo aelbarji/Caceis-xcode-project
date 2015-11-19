@@ -7,8 +7,16 @@
 //
 
 #import <Overcoat/OVCHTTPSessionManager.h>
+#import <Overcoat/Overcoat.h>
 #import <UIKit/UIKit.h>
+#import <Promisekit/Promisekit.h>
 #import "Emetteur.h"
+#import "Action.h"
+#import "StockOption.h"
+#import "Paga.h"
+#import "Message.h"
+#import "AssembleGenerale.h"
+
 
 @interface CaceisClient : OVCHTTPSessionManager
 
@@ -20,7 +28,13 @@
  
  @return A `Promise` that will `then` an array of `Tweet` objects.
  */
-//- (NSArray *)fetchEmetteurs:(Emetteur*)emetteur parameters:(NSDictionary *)parameters;
+- (id)initWithURL;
+- (void)getEmetteursList;
+- (void) getActionByRef : (NSString*) ref;
+- (void) getStockOptionByRef : (NSString*) ref;
+- (void) getPagaByRef : (NSString*) ref;
+- (void) getMessagesByRef : (NSString*) ref;
+- (void) getAssembleGenerale;
 
 
 

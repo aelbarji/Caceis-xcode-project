@@ -25,10 +25,10 @@
              };
 }
 
-+ (NSValueTransformer *)detailJSONTransformer {
-    return [MTLJSONAdapter dictionaryTransformerWithModelClass:[StockDetail class]];
-}
 
++ (NSValueTransformer *)detailJSONTransformer{
+    return [NSValueTransformer mtl_arrayMappingTransformerWithTransformer :[MTLJSONAdapter dictionaryTransformerWithModelClass:[StockDetail class]]];
+}
 #pragma mark MTLManagedObjectSerializing
 /*
  

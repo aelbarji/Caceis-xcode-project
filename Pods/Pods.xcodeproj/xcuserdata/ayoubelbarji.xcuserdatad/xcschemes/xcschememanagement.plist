@@ -8,43 +8,36 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
+		</dict>
+		<key>MBProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Mantle.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
 		</dict>
 		<key>Overcoat.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>3</integer>
 		</dict>
 		<key>Pods-Caceis.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>4</integer>
 		</dict>
 		<key>PromiseKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>5</integer>
 		</dict>
 		<key>YLProgressBar.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>6</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -59,6 +52,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>674ACEDFE8C64BBD7A26E2CACD9159EF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>814D7F0C846B4DCB10FE73B71013FF5D</key>
 		<dict>
 			<key>primary</key>
@@ -69,12 +67,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C79521EB4AEA87832CC4C50910B98CCC</key>
+		<key>D5AD3AD3309904AC781E71F2A62A721E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F31673AE3472DC9020A7544AD98E7706</key>
+		<key>E61CE3B6DFA1FE6B3E296965C76C0E10</key>
 		<dict>
 			<key>primary</key>
 			<true/>

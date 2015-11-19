@@ -85,6 +85,7 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-Caceis/AFNetworking.framework"
+  install_framework "Pods-Caceis/MBProgressHUD.framework"
   install_framework "Pods-Caceis/Mantle.framework"
   install_framework "Pods-Caceis/Overcoat.framework"
   install_framework "Pods-Caceis/PromiseKit.framework"
@@ -92,6 +93,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-Caceis/AFNetworking.framework"
+  install_framework "Pods-Caceis/MBProgressHUD.framework"
   install_framework "Pods-Caceis/Mantle.framework"
   install_framework "Pods-Caceis/Overcoat.framework"
   install_framework "Pods-Caceis/PromiseKit.framework"

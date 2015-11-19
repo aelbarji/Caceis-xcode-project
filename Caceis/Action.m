@@ -8,6 +8,7 @@
 
 #import "Action.h"
 #import "ActionDetail.h"
+#import <Overcoat/OVCUtilities.h>
 
 @implementation Action
 
@@ -25,8 +26,8 @@
              };
 }
 
-+ (NSValueTransformer *)detailJSONTransformer {
-    return [MTLJSONAdapter dictionaryTransformerWithModelClass:[ActionDetail class]];
++ (NSValueTransformer *)detailJSONTransformer{
+    return [NSValueTransformer mtl_arrayMappingTransformerWithTransformer :[MTLJSONAdapter dictionaryTransformerWithModelClass:[ActionDetail class]]];
 }
 
 #pragma mark MTLManagedObjectSerializing

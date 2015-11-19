@@ -22,8 +22,8 @@
              };
 }
 
-+ (NSValueTransformer *)detailJSONTransformer {
-    return [MTLJSONAdapter dictionaryTransformerWithModelClass:[PagaDetail class]];
++ (NSValueTransformer *)detailJSONTransformer{
+    return [NSValueTransformer mtl_arrayMappingTransformerWithTransformer :[MTLJSONAdapter dictionaryTransformerWithModelClass:[PagaDetail class]]];
 }
 
 #pragma mark MTLManagedObjectSerializing

@@ -7,13 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AddEmetteurViewController.h"
 
-static NSString * const kBaseURL = @"http://demo5517854.mockable.io/";
 
-@interface EmetteurTableViewController : UITableViewController
+@interface EmetteurTableViewController : UITableViewController<AddEmetteurViewControllerDelegate>
 
-@property (nonatomic, strong) NSMutableArray *emetteurs;
-
-- (IBAction)CancelButton:(id)sender;
 
 @end

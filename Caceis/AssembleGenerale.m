@@ -22,4 +22,20 @@
              };
 }
 
++ (NSValueTransformer *)dateJSONTransformer {
+    return [MTLValueTransformer transformerUsingForwardBlock:^id(NSString *dateString, BOOL *success, NSError *__autoreleasing *error) {
+        return [self.dateFormatter dateFromString:dateString];
+    } reverseBlock:^id(NSDate *date, BOOL *success, NSError *__autoreleasing *error) {
+        return [self.dateFormatter stringFromDate:date];
+    }];
+}
+
+#pragma mark Helper
++ (NSDateFormatter *)dateFormatter {
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    dateFormatter.locale = [[NSLocale alloc] initWithLocaleIdentifier:@"en_US_POSIX"];
+    dateFormatter.dateFormat = @"dd-MM-yyyy";
+    return dateFormatter;
+}
+
 @end

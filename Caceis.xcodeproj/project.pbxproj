@@ -80,6 +80,19 @@
 		E1AE53C91BFA996100BBF9DB /* DismissAndPresentSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE53C81BFA996100BBF9DB /* DismissAndPresentSegue.m */; };
 		E1AE53CC1BFB2DDE00BBF9DB /* Caceis.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1AE53CA1BFB2DDE00BBF9DB /* Caceis.xcdatamodeld */; };
 		E1AE53D01BFB30FE00BBF9DB /* ActionDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE53CF1BFB30FE00BBF9DB /* ActionDetail.m */; };
+		E1AE53D31BFB773D00BBF9DB /* LoadScreenController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE53D21BFB773D00BBF9DB /* LoadScreenController.m */; };
+		E1AE53DA1BFC6DC500BBF9DB /* AddEmetteurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE53D91BFC6DC500BBF9DB /* AddEmetteurViewController.m */; };
+		E1AE53DC1BFC86F800BBF9DB /* close-icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53DB1BFC86F800BBF9DB /* close-icon2.png */; };
+		E1AE53DF1BFC8A4800BBF9DB /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE53DE1BFC8A4800BBF9DB /* DashboardViewController.m */; };
+		E1AE53E71BFCE79200BBF9DB /* MutiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE53E61BFCE79200BBF9DB /* MutiViewController.m */; };
+		E1AE53EA1BFCE82300BBF9DB /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE53E91BFCE82300BBF9DB /* ContainerViewController.m */; };
+		E1AE53ED1BFDBE9300BBF9DB /* EmptySegue.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE53EC1BFDBE9300BBF9DB /* EmptySegue.m */; };
+		E1AE53F01BFDC3B900BBF9DB /* AGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE53EF1BFDC3B900BBF9DB /* AGViewController.m */; };
+		E1AE53F31BFDC41200BBF9DB /* MessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE53F21BFDC41200BBF9DB /* MessagesViewController.m */; };
+		E1AE53F71BFDD1C700BBF9DB /* clock252.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53F61BFDD1C700BBF9DB /* clock252.png */; };
+		E1AE53F91BFDD3C000BBF9DB /* 3-bandes-white.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AE53F81BFDD3C000BBF9DB /* 3-bandes-white.png */; };
+		E1AE53FC1BFDDD6100BBF9DB /* DateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE53FB1BFDDD6100BBF9DB /* DateHelper.m */; };
+		E1AE54021BFE03AE00BBF9DB /* MessagesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AE54011BFE03AE00BBF9DB /* MessagesTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -197,6 +210,30 @@
 		E1AE53CD1BFB307D00BBF9DB /* Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Action.h; sourceTree = "<group>"; };
 		E1AE53CE1BFB30FE00BBF9DB /* ActionDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionDetail.h; sourceTree = "<group>"; };
 		E1AE53CF1BFB30FE00BBF9DB /* ActionDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionDetail.m; sourceTree = "<group>"; };
+		E1AE53D11BFB773D00BBF9DB /* LoadScreenController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadScreenController.h; sourceTree = "<group>"; };
+		E1AE53D21BFB773D00BBF9DB /* LoadScreenController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadScreenController.m; sourceTree = "<group>"; };
+		E1AE53D41BFB954000BBF9DB /* CaceisConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaceisConfig.h; sourceTree = "<group>"; };
+		E1AE53D81BFC6DC500BBF9DB /* AddEmetteurViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEmetteurViewController.h; sourceTree = "<group>"; };
+		E1AE53D91BFC6DC500BBF9DB /* AddEmetteurViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEmetteurViewController.m; sourceTree = "<group>"; };
+		E1AE53DB1BFC86F800BBF9DB /* close-icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close-icon2.png"; sourceTree = "<group>"; };
+		E1AE53DD1BFC8A4800BBF9DB /* DashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardViewController.h; sourceTree = "<group>"; };
+		E1AE53DE1BFC8A4800BBF9DB /* DashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardViewController.m; sourceTree = "<group>"; };
+		E1AE53E51BFCE79200BBF9DB /* MutiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutiViewController.h; sourceTree = "<group>"; };
+		E1AE53E61BFCE79200BBF9DB /* MutiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutiViewController.m; sourceTree = "<group>"; };
+		E1AE53E81BFCE82300BBF9DB /* ContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
+		E1AE53E91BFCE82300BBF9DB /* ContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
+		E1AE53EB1BFDBE9300BBF9DB /* EmptySegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptySegue.h; sourceTree = "<group>"; };
+		E1AE53EC1BFDBE9300BBF9DB /* EmptySegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptySegue.m; sourceTree = "<group>"; };
+		E1AE53EE1BFDC3B900BBF9DB /* AGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGViewController.h; sourceTree = "<group>"; };
+		E1AE53EF1BFDC3B900BBF9DB /* AGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGViewController.m; sourceTree = "<group>"; };
+		E1AE53F11BFDC41200BBF9DB /* MessagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagesViewController.h; sourceTree = "<group>"; };
+		E1AE53F21BFDC41200BBF9DB /* MessagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagesViewController.m; sourceTree = "<group>"; };
+		E1AE53F61BFDD1C700BBF9DB /* clock252.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock252.png; sourceTree = "<group>"; };
+		E1AE53F81BFDD3C000BBF9DB /* 3-bandes-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3-bandes-white.png"; sourceTree = "<group>"; };
+		E1AE53FA1BFDDD6100BBF9DB /* DateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateHelper.h; sourceTree = "<group>"; };
+		E1AE53FB1BFDDD6100BBF9DB /* DateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateHelper.m; sourceTree = "<group>"; };
+		E1AE54001BFE03AE00BBF9DB /* MessagesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagesTableViewCell.h; sourceTree = "<group>"; };
+		E1AE54011BFE03AE00BBF9DB /* MessagesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagesTableViewCell.m; sourceTree = "<group>"; };
 		E1ED1567002CA61B23917AAB /* Pods-Caceis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Caceis.release.xcconfig"; path = "Pods/Target Support Files/Pods-Caceis/Pods-Caceis.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -316,6 +353,8 @@
 			children = (
 				E1AE53591BF62BA100BBF9DB /* EmetteurTableViewCell.h */,
 				E1AE535A1BF62BA100BBF9DB /* EmetteurTableViewCell.m */,
+				E1AE54001BFE03AE00BBF9DB /* MessagesTableViewCell.h */,
+				E1AE54011BFE03AE00BBF9DB /* MessagesTableViewCell.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -357,6 +396,11 @@
 				E1AE53C51BFA97D000BBF9DB /* DismissSegue.m */,
 				E1AE53C71BFA996100BBF9DB /* DismissAndPresentSegue.h */,
 				E1AE53C81BFA996100BBF9DB /* DismissAndPresentSegue.m */,
+				E1AE53D41BFB954000BBF9DB /* CaceisConfig.h */,
+				E1AE53EB1BFDBE9300BBF9DB /* EmptySegue.h */,
+				E1AE53EC1BFDBE9300BBF9DB /* EmptySegue.m */,
+				E1AE53FA1BFDDD6100BBF9DB /* DateHelper.h */,
+				E1AE53FB1BFDDD6100BBF9DB /* DateHelper.m */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -366,6 +410,20 @@
 			children = (
 				E1AE53561BF6231200BBF9DB /* EmetteurTableViewController.h */,
 				E1AE53571BF6231200BBF9DB /* EmetteurTableViewController.m */,
+				E1AE53D11BFB773D00BBF9DB /* LoadScreenController.h */,
+				E1AE53D21BFB773D00BBF9DB /* LoadScreenController.m */,
+				E1AE53D81BFC6DC500BBF9DB /* AddEmetteurViewController.h */,
+				E1AE53D91BFC6DC500BBF9DB /* AddEmetteurViewController.m */,
+				E1AE53DD1BFC8A4800BBF9DB /* DashboardViewController.h */,
+				E1AE53DE1BFC8A4800BBF9DB /* DashboardViewController.m */,
+				E1AE53E51BFCE79200BBF9DB /* MutiViewController.h */,
+				E1AE53E61BFCE79200BBF9DB /* MutiViewController.m */,
+				E1AE53E81BFCE82300BBF9DB /* ContainerViewController.h */,
+				E1AE53E91BFCE82300BBF9DB /* ContainerViewController.m */,
+				E1AE53EE1BFDC3B900BBF9DB /* AGViewController.h */,
+				E1AE53EF1BFDC3B900BBF9DB /* AGViewController.m */,
+				E1AE53F11BFDC41200BBF9DB /* MessagesViewController.h */,
+				E1AE53F21BFDC41200BBF9DB /* MessagesViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -382,6 +440,9 @@
 		E1AE533B1BF5F0F600BBF9DB /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				E1AE53F81BFDD3C000BBF9DB /* 3-bandes-white.png */,
+				E1AE53F61BFDD1C700BBF9DB /* clock252.png */,
+				E1AE53DB1BFC86F800BBF9DB /* close-icon2.png */,
 				E1AE53C21BFA8F9000BBF9DB /* titres-bar-messages.png */,
 				E1AE53C01BFA8CAB00BBF9DB /* titre-bar-AG.png */,
 				E1AE53BE1BFA8A5100BBF9DB /* QR-code.png */,
@@ -560,9 +621,11 @@
 				E1AE53A61BFA0B3600BBF9DB /* Roboto-Italic.ttf in Resources */,
 				E1AE539F1BFA0B3600BBF9DB /* Roboto-BlackItalic.ttf in Resources */,
 				E1AE53B51BFA3DF800BBF9DB /* dashboard-caceis.png in Resources */,
+				E1AE53F91BFDD3C000BBF9DB /* 3-bandes-white.png in Resources */,
 				E1AE53A01BFA0B3600BBF9DB /* Roboto-Bold.ttf in Resources */,
 				E1AE537E1BF9CBD800BBF9DB /* bouton-portefeuille-off.jpg in Resources */,
 				E1AE53C11BFA8CAB00BBF9DB /* titre-bar-AG.png in Resources */,
+				E1AE53F71BFDD1C700BBF9DB /* clock252.png in Resources */,
 				E1AE53781BF9CBD800BBF9DB /* bouton-message-0-off.jpg in Resources */,
 				E1AE53BF1BFA8A5100BBF9DB /* QR-code.png in Resources */,
 				E1AE53AF1BFA16DB00BBF9DB /* bouton-ajout-selecteur-2.png in Resources */,
@@ -592,6 +655,7 @@
 				E1AE53851BF9CBD800BBF9DB /* portefeuille.jpg in Resources */,
 				E1AE53A71BFA0B3600BBF9DB /* Roboto-Light.ttf in Resources */,
 				E1AE53A91BFA0B3600BBF9DB /* Roboto-Medium.ttf in Resources */,
+				E1AE53DC1BFC86F800BBF9DB /* close-icon2.png in Resources */,
 				E1AE53871BF9CBD800BBF9DB /* setting.jpg in Resources */,
 				E1AE53B31BFA3D9200BBF9DB /* logo-dashboard.png in Resources */,
 				E1AE538B1BF9E6D700BBF9DB /* fond-2.jpg in Resources */,
@@ -683,19 +747,29 @@
 				E1AE535B1BF62BA100BBF9DB /* EmetteurTableViewCell.m in Sources */,
 				E1AE53401BF5F21D00BBF9DB /* StockOption.m in Sources */,
 				E1AE534F1BF5F86700BBF9DB /* CaceisClient.m in Sources */,
+				E1AE53E71BFCE79200BBF9DB /* MutiViewController.m in Sources */,
 				E1AE53341BF5E62800BBF9DB /* Message.m in Sources */,
+				E1AE53ED1BFDBE9300BBF9DB /* EmptySegue.m in Sources */,
+				E1AE53DF1BFC8A4800BBF9DB /* DashboardViewController.m in Sources */,
 				E1AE53311BF5DFEE00BBF9DB /* Emetteur.m in Sources */,
 				E1AE52F61BF5DC8000BBF9DB /* AppDelegate.m in Sources */,
 				E1AE52F31BF5DC8000BBF9DB /* main.m in Sources */,
 				E1AE53461BF5F52100BBF9DB /* AssembleGenerale.m in Sources */,
 				E1AE53C91BFA996100BBF9DB /* DismissAndPresentSegue.m in Sources */,
 				E1AE53581BF6231200BBF9DB /* EmetteurTableViewController.m in Sources */,
+				E1AE54021BFE03AE00BBF9DB /* MessagesTableViewCell.m in Sources */,
+				E1AE53F01BFDC3B900BBF9DB /* AGViewController.m in Sources */,
+				E1AE53EA1BFCE82300BBF9DB /* ContainerViewController.m in Sources */,
+				E1AE53DA1BFC6DC500BBF9DB /* AddEmetteurViewController.m in Sources */,
 				E1AE53C61BFA97D000BBF9DB /* DismissSegue.m in Sources */,
 				E1AE53371BF5E7AA00BBF9DB /* Action.m in Sources */,
 				E1AE53D01BFB30FE00BBF9DB /* ActionDetail.m in Sources */,
+				E1AE53F31BFDC41200BBF9DB /* MessagesViewController.m in Sources */,
 				E1AE53551BF61ED900BBF9DB /* CaceisError.m in Sources */,
 				E1AE53491BF5F5DB00BBF9DB /* Paga.m in Sources */,
 				E1AE53431BF5F23A00BBF9DB /* StockDetail.m in Sources */,
+				E1AE53D31BFB773D00BBF9DB /* LoadScreenController.m in Sources */,
+				E1AE53FC1BFDDD6100BBF9DB /* DateHelper.m in Sources */,
 				E1AE534C1BF5F61700BBF9DB /* PagaDetail.m in Sources */,
 				E1AE53521BF61E6B00BBF9DB /* CaceisErrorResponse.m in Sources */,
 			);
